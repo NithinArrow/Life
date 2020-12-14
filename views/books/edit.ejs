@@ -1,0 +1,7 @@
+<h2>Edit Post</h2>
+<form action="/books/<%= book.id %>?_method=PUT" method="POST">
+    <img src="<%= book.coverImagePath %>" style="display:block;max-width:1000px;max-height:500px;width:auto;height:auto;">
+    <%- include('_form_fields') %>
+    <a href="/books">Cancel</a>
+    <button type="submit">Add</button>
+</form>
