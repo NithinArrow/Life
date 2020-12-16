@@ -6,6 +6,22 @@
     box-sizing: border-box;
 }
 
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+  
+
+.mainmenu {
+    color:#fff;
+    padding-left: 50px;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
 }
